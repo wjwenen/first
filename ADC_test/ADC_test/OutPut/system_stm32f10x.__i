@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\inc -I..\App -I..\User 
+-I "D:\Program Files\Keil\ARM\RV31\INC" 
+-I "D:\Program Files\Keil\ARM\CMSIS\Include" 
+-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F10x" 
+-o "..\OutPut\system_stm32f10x.o" --omf_browse "..\OutPut\system_stm32f10x.crf" --depend "..\OutPut\system_stm32f10x.d" "..\Libraries\CM3\CoreSupport\system_stm32f10x.c"
